@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.inputs {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+.campo-preenchido {
+    border: 1px solid green;
+}

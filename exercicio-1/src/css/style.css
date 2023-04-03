@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quadrados {
+    gap: 5px;
+    text-align: center;
+}
+
+.quadrados .quadrado {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.quadrados .quadrado.vermelho {
+    background-color: red;
+}
